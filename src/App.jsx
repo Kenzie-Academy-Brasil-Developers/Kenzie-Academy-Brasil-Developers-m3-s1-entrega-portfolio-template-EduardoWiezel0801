@@ -1,11 +1,15 @@
+import { Header } from "./compnents/Header";
+import { BunnerSection } from "./compnents/BunnerSection";
+
+
 function App() {
 
   return (
     <>
-      <li>
-        "teste"
+    <Header />
+    <BunnerSection />
 
-      </li>  
+      
     </>
   )
 }
