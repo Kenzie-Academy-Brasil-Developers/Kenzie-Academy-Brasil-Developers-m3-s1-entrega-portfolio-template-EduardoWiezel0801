@@ -1,5 +1,8 @@
-import { Header } from "./compnents/Header";
-import { BunnerSection } from "./compnents/BunnerSection";
+import {Header} from "./compnents/Header"
+import {BunnerSection} from "./compnents/sections/BunnerSection"
+import { TecnologiesCard} from "./compnents/sections/TechSection"
+import { ProjectsCardCard } from "./compnents/sections/ProjectsSection"
+import { Footer } from "./compnents/Footer"
 
 
 function App() {
@@ -8,6 +11,13 @@ function App() {
     <>
     <Header />
     <BunnerSection />
+    <TecnologiesCard />
+    <ProjectsCardCard />
+    <Footer />
+
+
+
+
 
       
     </>

@@ -1,4 +1,4 @@
-import BunnerImg from "../../assets/banner-img.png"
+import BunnerImg from "../../../assets/banner-img.png"
 
 
 export const BunnerSection = () => {
