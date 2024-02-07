@@ -1,18 +1,25 @@
+import styles from "./styles.module.css";
+
+
+
 export const Header = () => {
-    return(
-        <header>
+  return(
+    <>    
+    < header className={styles.header}>
       <div>
-        <h1>Portifólio</h1>
+        <h3>Portifólio</h3>
       </div>
-      <div>
-        <h3>Sobre</h3>
-        <h3>Stack</h3>
-        <h3>Projetos</h3>
+      <div className={styles.menu}>
+        <h5>Sobre</h5>
+        <h5>Stack</h5>
+        <h5>Projetos</h5>
       </div>
 
-      <button>
+      <button className="btnContato">
         Contato
       </button>
     </header>
-    )
+    </>
+
+  )
 }

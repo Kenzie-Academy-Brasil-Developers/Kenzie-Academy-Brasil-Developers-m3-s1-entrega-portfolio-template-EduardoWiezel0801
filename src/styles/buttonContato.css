@@ -1,0 +1,8 @@
+.btnContato{
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    padding:0.3rem ;
+    border-radius: 10%;
+    width: 5rem;
+
+}
