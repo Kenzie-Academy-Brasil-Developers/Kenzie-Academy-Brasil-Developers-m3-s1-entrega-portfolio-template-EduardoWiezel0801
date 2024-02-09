@@ -12,7 +12,7 @@ export const TecnologiesCard = () => {
                 return(
 
                     
-                    <li className="techcard">
+                    <li key={tech.name} className="techcard">
                         <img className="techImg" src={tech.img} />
                         <p className="techName" >{tech.name}</p>        
                     </li>

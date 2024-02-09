@@ -13,7 +13,7 @@ export const ProjectsCard = () => {
             projects.map((project) => {
                 return(
                     
-                    <div className="projectCardContainer">
+                    <div key={project.name} className="projectCardContainer">
                         <li className="projectCard" >
                             <p>{project.name}</p>
                             <p>{project.description}</p>

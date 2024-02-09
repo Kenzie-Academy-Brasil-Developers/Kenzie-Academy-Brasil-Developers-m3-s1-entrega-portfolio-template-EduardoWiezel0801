@@ -7,7 +7,8 @@ import { Footer } from "../../compnents/Footer"
 
 import "../../styles/index.css"
 
-export const LandingPage = () =>{
+export const LandingPage = () => {
+    return(
     <>
     <Header />
     <BunnerSection />
@@ -16,6 +17,7 @@ export const LandingPage = () =>{
     <ProjectsCard />
     <Footer />  
 </>
+    )
     
 
 }
