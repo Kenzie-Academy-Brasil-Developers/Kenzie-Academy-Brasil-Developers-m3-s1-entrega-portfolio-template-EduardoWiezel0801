@@ -1,0 +1,17 @@
+
+.cardContainer{
+   margin-top: 4rem;
+    margin-left: 9%;
+    
+}
+
+.cardSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    gap: 2rem;
+
+
+}
+

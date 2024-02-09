@@ -8,8 +8,8 @@ export const BunnerSection = () => {
         <section className={styles.bunnerSection}>
             <div className={styles.bunnerContainer}>
                 <h3 className={styles.user}>{user}</h3>               
-                <h1 className={styles.welcome}> Bem vindo ao meu portifólio</h1>        
-                <p> Uma frase interessanta sobre mim.</p>
+                <h1 className="title1"> Bem vindo ao meu portifólio</h1>        
+                <p className="title3"> Uma frase interessanta sobre mim.</p>
                 <button className="btnContato"> Saiba mais</button>
             </div>
             <div>

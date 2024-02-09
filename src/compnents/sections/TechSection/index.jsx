@@ -1,21 +1,28 @@
 import { technologies } from "../../../data/technologies";
+import styles from "./TechList/styles.module.css"
 
 export const TecnologiesCard = () => {
     return (
         <>
-        <h1>Tecnologias</h1>
-        {
+        <section className={styles.cardContainer} >
+            <h1 className="title1">Tecnologias</h1>
+            <div className={styles.cardSection}>
+            {
             technologies.map((tech) => {
                 return(
 
-                    <li>
-                    <img src={tech.img} />
-                    <p>{tech.name}</p>        
+                    
+                    <li className="techcard">
+                        <img className="techImg" src={tech.img} />
+                        <p className="techName" >{tech.name}</p>        
                     </li>
-
+                    
                 )
             })
-        }
+
+            }
+            </div>
+        </section>
       </>
     );
   };

@@ -1,25 +1,32 @@
 import { projects } from "../../../data/projects";
-import GitImg from "../../../assets/github-icon.png"
+import GitImg from "../../../assets/git-icon.png";
+import styles from "./../ProjectsSection/ProjectCard/styles.module.css"
 
-export const ProjectsCardCard = () => {
+
+export const ProjectsCard = () => {
     return (
         <>
-        <h1>Projetos</h1>
-        {
+        <section className={styles.projectCardSection}>
+            <h1 className="title1">Projetos</h1>
+            <div className={styles.cardContainer}>
+            {
             projects.map((project) => {
                 return(
                     
-                    <li>
-                        <p>{project.name}</p>
-                        <p>{project.description}</p>
-                        <a href="#">Saiba mais</a>
+                    <div className="projectCardContainer">
+                        <li className="projectCard" >
+                            <p>{project.name}</p>
+                            <p>{project.description}</p>
+                            <a href="#">Saiba mais</a>
+                                                 
+                        </li>
                         <img src={GitImg} alt="#" />
-                         
-                    </li>
-
+                    </div>
                 )
             })
-        }
+            }
+            </div>
+        </section>
       </>
     );
   };
