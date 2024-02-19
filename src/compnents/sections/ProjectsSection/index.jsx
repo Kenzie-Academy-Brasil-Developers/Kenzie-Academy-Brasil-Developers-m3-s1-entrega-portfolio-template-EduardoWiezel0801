@@ -15,7 +15,7 @@ export const ProjectsCard = () => {
                     
                     <div key={project.name} className="projectCardContainer">
                         <li className="projectCard" >
-                            <p>{project.name}</p>
+                            <p className="tilleProj">{project.name}</p>
                             <p>{project.description}</p>
                             <a href="#">Saiba mais</a>
                                                  

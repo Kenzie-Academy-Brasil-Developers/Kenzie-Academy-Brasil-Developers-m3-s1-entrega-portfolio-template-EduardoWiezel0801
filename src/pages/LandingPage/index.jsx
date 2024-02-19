@@ -1,9 +1,9 @@
-import {Header} from "../../compnents/Header"
+import {Header} from "../../Header"
 import {BunnerSection} from "../../compnents/sections/BunnerSection"
 import { AboutMeSection } from "../../compnents/sections/AboutMeSection"
 import { TecnologiesCard} from "../../compnents/sections/TechSection"
 import {ProjectsCard} from "../../compnents/sections/ProjectsSection"
-import { Footer } from "../../compnents/Footer"
+import { Footer } from "../../Footer"
 
 import "../../styles/index.css"
 
