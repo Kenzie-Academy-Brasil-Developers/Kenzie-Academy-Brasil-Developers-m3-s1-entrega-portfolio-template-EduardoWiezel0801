@@ -1,0 +1,15 @@
+.projectCardSection{
+    margin-top: 4rem;
+    margin-left: 9%;
+    
+    
+}
+.cardContainer{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    gap: 2rem;
+    
+}
