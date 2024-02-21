@@ -1,8 +1,8 @@
-import WhatsApp from "../assets/whatsapp-icon.png"
-import Linkedin from "../assets/linkedin-icon.png"
-import GitImg from "../assets/github-icon.png"
-import {user} from "../data/user/"
-import styles from "../Footer/styles.module.css"
+import WhatsApp from "../../assets/whatsapp-icon.png"
+import Linkedin from "../../assets/linkedin-icon.png"
+import GitImg from "../../assets/github-icon.png"
+import {user} from "../../data/user/"
+import styles from "./styles.module.css"
 
 export const Footer = () => {
 

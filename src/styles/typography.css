@@ -3,10 +3,12 @@
 }
 .title1{
     font-size: clamp(1.25rem, 0rem + 100vw, 3.125rem);
+    
 }
 
 .title2{
     font-size: clamp(1.25rem, 0rem + 100vw, 2.5rem);
+   
 }
 
 .title3{

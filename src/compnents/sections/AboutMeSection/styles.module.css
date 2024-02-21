@@ -1,13 +1,13 @@
 .aboutMe{
     margin-top: 5rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: stretch;
     margin-left: 5%;   
     gap: 1rem;   
 }
 .aboutTitle{
-    width: 30%;
+    width: 40%;
     font-size: clamp(1.25rem, 0rem + 100vw, 3.125rem);
 }
 .aboutP{

@@ -15,9 +15,9 @@ export const ProjectsCard = () => {
                     
                     <div key={project.name} className="projectCardContainer">
                         <li className="projectCard" >
-                            <p className="tilleProj">{project.name}</p>
-                            <p>{project.description}</p>
-                            <a href="#">Saiba mais</a>
+                            <p className="nameProj">{project.name}</p>
+                            <p className="descriptionProj">{project.description}</p>
+                            <a className="aboutProj" href="#">Saiba mais</a>
                                                  
                         </li>
                         <img src={GitImg} alt="#" />

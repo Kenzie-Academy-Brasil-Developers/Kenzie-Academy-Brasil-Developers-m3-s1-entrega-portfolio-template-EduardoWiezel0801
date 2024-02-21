@@ -1,17 +1,19 @@
 .bunnerSection{
 
-    margin-top: 4rem;
+    margin-top: 9.625rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    width: 100%;
+    margin-left: 5%;
+    
+
    
 }
 .bunnerContainer{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    width: 40%;
+
 }
 .user{
     font-size: clamp(0.563rem, 0rem + 100vw, 1.125rem);
