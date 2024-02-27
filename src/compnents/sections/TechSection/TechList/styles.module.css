@@ -23,4 +23,29 @@
 
 
 }
+@media (max-width: 31.25rem){
 
+    .cardContainer{
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 100%;
+         
+         
+     }
+     .cardSection{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;   
+        margin-top: 2rem;
+        gap: 1rem;
+        
+        
+    
+    
+    
+    }
+
+}
