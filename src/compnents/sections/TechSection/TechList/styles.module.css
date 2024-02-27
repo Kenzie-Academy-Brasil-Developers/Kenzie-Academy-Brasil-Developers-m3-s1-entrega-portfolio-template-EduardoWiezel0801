@@ -13,12 +13,9 @@
 
 .cardSection{
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-   
+    flex-wrap:wrap;
+    justify-content: flex-start;   
     margin-top: 2rem;
-
-
     gap: 1rem;
     
     
