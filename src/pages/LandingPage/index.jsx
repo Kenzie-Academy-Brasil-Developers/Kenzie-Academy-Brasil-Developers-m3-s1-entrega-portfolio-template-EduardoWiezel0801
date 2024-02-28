@@ -10,12 +10,15 @@ import "../../styles/index.css"
 export const LandingPage = () => {
     return(
     <>
+     <main className="containerMain">
     <Header />
+   
     <BunnerSection />
     <AboutMeSection />
     <TecnologiesCard />
     <ProjectsCard />
     <Footer />  
+    </main>
 </>
     )
     
