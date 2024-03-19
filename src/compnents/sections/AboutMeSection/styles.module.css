@@ -2,9 +2,8 @@
     margin-top: 5rem;
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
-    margin-left: 5%;   
-    gap: 1rem;   
+    align-items: stretch;      
+    
 }
 .aboutTitle{
     width: 40%;
